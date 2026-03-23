@@ -1,7 +1,7 @@
-# EX 21 C program to calculate the area of a triangle using pointer.
+# EX 22 C program to count total number of even elements in an array using calloc().
 ## DATE:
 ## AIM:
-To write a C program to calculate the area of a triangle using pointer.
+To write a C program to count total number of even elements in an array using calloc().
 
 ## Algorithm
 1.Start the program and declare a file pointer.
@@ -13,29 +13,36 @@ To write a C program to calculate the area of a triangle using pointer.
 4.Close the file using fclose() after confirming successful opening.
 
 5.Display a message indicating the file was closed successfully.
-
 ## Program:
 ```
 /*
-C program to calculate the area of a triangle using pointer.
+C program to count total number of even elements in an array using calloc().
 Developed by: JAYASHREE R
 RegisterNumber:  212222060090
 */
 #include <stdio.h> 
 int main() { 
-float a, b, c, min; 
-scanf("%f%f%f", &a, &b, &c); 
-// Finding minimum using conditional operator 
-min = (a < b) ? ((a < c) ? a : c) : ((b < c) ? b : c); 
- 
-printf("Minimum between %.3f, %.3f and %.3f = %.3f\n",a,b,c, min); 
-return 0; 
+    char str1[100], str2[100]; 
+    int i = 0, flag = 0; 
+    scanf("%s", str1); 
+    scanf("%s", str2); 
+    while (str1[i] != '\0' || str2[i] != '\0') { 
+        if (str1[i] != str2[i]) { 
+            flag = 1; 
+            break; 
+        } 
+        i++;    }    
+ if (flag == 0)         
+printf("Strings are equal.\n"); 
+ else 
+        printf("Strings are not equal.\n"); 
+    return 0; 
 } 
 ```
 
 ## Output:
+<img width="624" height="140" alt="image" src="https://github.com/user-attachments/assets/1ac7fb56-4aed-4561-9c78-043c0cbfd158" />
 
-<img width="661" height="181" alt="image" src="https://github.com/user-attachments/assets/3f04e129-9aee-41e4-935c-ad8b6894e6d2" />
 
 
 ## Result:
