@@ -17,8 +17,8 @@ employees and calculate their Gross Salary(da =10% and HRA=30% from BP).
 ```
 /*
 A structure program to read(empno,dept and basic pay) and store the data of 3 employees and calculate their Gross Salary(da =10% and HRA=30% from BP).
-Developed by: HARSHITHA.Y
-RegisterNumber:  212222060081
+Developed by: JAYASHREE R
+RegisterNumber:  212222060090
 */
 #include <stdio.h> 
 struct Employee {
