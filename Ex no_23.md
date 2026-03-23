@@ -18,8 +18,8 @@ To write a C program to store and display the name, id, age and salary of an emp
 ```
 /*
 C program to store and display the name, id, age and salary of an employee using structure(using array of structure).
-Developed by: HARSHITHA.Y
-RegisterNumber:  212222060081
+Developed by: JAYASHREE R
+RegisterNumber:  212222060090
 */
 #include<stdio.h> 
 #include<string.h> 
